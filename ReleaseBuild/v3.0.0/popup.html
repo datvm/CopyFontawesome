@@ -1,0 +1,78 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="css/popup.min.css" />
+
+    <title></title>
+</head>
+
+<body class="p-3">
+    <h1 data-loc="AppName"></h1>
+
+    <p>
+        <img class="mw-100" src="/img/screenshot.png" />
+    </p>
+
+    <p data-loc="Description"></p>
+
+    <div class="row mb-3">
+        <div class="col-auto">
+            <img src="/img/demo-check.png" />
+        </div>
+        <div class="col copy-options">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="copy-type" id="opt-name-only" value="0">
+                <label class="form-check-label" for="opt-name-only">
+                    <span data-loc="CopyName"></span>
+                    <code>check</code>
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="copy-type" id="opt-class-only" value="1">
+                <label class="form-check-label" for="opt-class-only">
+                    <span data-loc="CopyClass"></span>
+                    <code>fa-check</code>
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="copy-type" id="opt-class-full" value="2">
+                <label class="form-check-label" for="opt-class-full">
+                    <span data-loc="CopyFull"></span>
+                    <code>fa-solid fa-check</code>
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="copy-type" id="opt-class-full-html" value="3">
+                <label class="form-check-label" for="opt-class-full-html">
+                    <span data-loc="CopyFullHtml"></span>
+                    <code>&lt;i class=&quot;fa-solid fa-check&quot;&gt;&lt;/i&gt;</code>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="mb-3">
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="chk-free">
+            <label class="form-check-label" for="chk-free" data-loc="FreeOnly"></label>
+        </div>
+        <a class="lnk-search" data-href="https://fontawesome.com/search" target="_blank" data-loc="Visit"></a>
+    </div>
+
+    <p>
+        <a target="_blank" class="teaser btn btn-warning w-100" data-loc="RateUs"></a>
+    </p>
+
+    <script type="module" src="js/common.js"></script>
+    <script type="module" src="js/popup.js"></script>
+    <script type="module" src="js/rate.js"></script>
+</body>
+
+</html>

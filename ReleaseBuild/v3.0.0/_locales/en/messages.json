@@ -1,0 +1,32 @@
+{
+    "AppName": {
+        "message": "Copy for FontAwesome"
+    },
+    "AppDesc": {
+        "message": "Add a copy button for FontAwesome search list"
+    },
+    "RateUs": {
+        "message": "Please Rate Us"
+    },
+    "Description": {
+        "message": "Add copy buttons when you browse icon list of FontAwesome. You can choose what to copy below:"
+    },
+    "Visit": {
+        "message": "Search FontAwesome Icons"
+    },
+    "CopyName": {
+        "message": "Name only"
+    },
+    "CopyClass": {
+        "message": "Icon class only"
+    },
+    "CopyFull": {
+        "message": "Full classes"
+    },
+    "CopyFullHtml": {
+        "message": "Full HTML"
+    },
+    "FreeOnly": {
+        "message": "Search Free Icons only"
+    }
+}
