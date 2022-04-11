@@ -4,6 +4,8 @@ A simple Chrome/Edge Chromium extension to improve productivity for developers a
 
 ![Screenshot](./screenshot.png)
 
+Was it helpful for you? Please consider a donation ❤️ [PayPal](https://paypal.me/datvm).
+
 ## Features
 
 - Add copy buttons to all icons on FontAwesome's listing pages. There are 4 copy modes you can choose from:
