@@ -22,5 +22,11 @@
     },
     "CopyFull": {
         "message": "Full classes"
+    },
+    "CopyFullHtml": {
+        "message": "Full HTML"
+    },
+    "FreeOnly": {
+        "message": "Search Free Icons only"
     }
 }

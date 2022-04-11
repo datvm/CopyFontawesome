@@ -1,11 +1,16 @@
-﻿import { WelcomePage } from "./welcome.js";
-
-const CopyStorageKey = "StorageType";
+﻿const CopyStorageKey = "StorageType";
+const SearchFreeIcons = "FreeIconOnly";
 
 class BackgroundPage {
 
     initialize() {
-        new WelcomePage();
+        chrome.runtime.onInstalled.addListener(details => {
+            if (details.reason === "install") {
+                chrome.tabs.create({
+                    url: "https://fontawesome.com/search",
+                });
+            }
+        });
 
         chrome.runtime.onMessage.addListener((...params) => this.onMessage(...params));
     }
@@ -23,6 +28,15 @@ class BackgroundPage {
             case "setCopyType":
                 chrome.storage.local.set({
                     [CopyStorageKey]: msg.value
+                }, () => sendRes(undefined));
+                return true;
+            case "getFreeSearch":
+                chrome.storage.local.get(SearchFreeIcons, s =>
+                    sendRes(s[SearchFreeIcons] ?? false));
+                return true;
+            case "setFreeSearch":
+                chrome.storage.local.set({
+                    [SearchFreeIcons]: msg.value
                 }, () => sendRes(undefined));
                 return true;
         }

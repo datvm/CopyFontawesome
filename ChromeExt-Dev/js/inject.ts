@@ -57,6 +57,10 @@ class CopyAwesomeFontInject {
             content = `${classes[0]} ${content}`;
         }
 
+        if (type === 3) {
+            content = `<i class="${content}"></i>`;
+        }
+
         await navigator.clipboard.writeText(content);
     }
 
