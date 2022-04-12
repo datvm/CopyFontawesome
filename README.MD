@@ -6,6 +6,12 @@ A simple Chrome/Edge Chromium extension to improve productivity for developers a
 
 Was it helpful for you? Please consider a donation ❤️ [PayPal](https://paypal.me/datvm).
 
+## Installation
+
+[From Chrome Webstore](https://chrome.google.com/webstore/detail/copy-for-fontawesome/amgbnbaggobnhkhlemenfjahopobmeoc)
+
+From Microsoft Addon (for Microsoft Edge Chromium): not live yet, will add the URL when it is.
+
 ## Features
 
 - Add copy buttons to all icons on FontAwesome's listing pages. There are 4 copy modes you can choose from:
