@@ -10,7 +10,7 @@ Was it helpful for you? Please consider a donation ❤️ [PayPal](https://paypa
 
 [From Chrome Webstore](https://chrome.google.com/webstore/detail/copy-for-fontawesome/amgbnbaggobnhkhlemenfjahopobmeoc)
 
-From Microsoft Addon (for Microsoft Edge Chromium): not live yet, will add the URL when it is.
+[From Microsoft Addon (for Microsoft Edge Chromium)](https://microsoftedge.microsoft.com/addons/detail/copy-for-fontawesome/nefoeddbegdpepcalgpflnomolcojndd)
 
 ## Features
 
